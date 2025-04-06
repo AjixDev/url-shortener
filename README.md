@@ -35,3 +35,30 @@ composer install
 ```bash
 composer install
 ```
+
+### 4. Set Up Environment Variables
+
+Update the .env file with your local environment configuration, such as database credentials:
+
+```bash
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=shorty
+DB_USERNAME=root
+DB_PASSWORD=your_password
+```
+
+### 5. Run Database Migrations
+
+```bash
+php artisan migrate
+```
+
+### 6. Start the Development Server
+
+```bash
+php artisan servre
+```
+
+# Happy Shortenning (if it is a word)!
