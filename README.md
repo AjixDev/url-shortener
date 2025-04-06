@@ -33,7 +33,7 @@ composer install
 ### 3. Install Node.js Dependencies
 
 ```bash
-composer install
+npm install
 ```
 
 ### 4. Set Up Environment Variables
