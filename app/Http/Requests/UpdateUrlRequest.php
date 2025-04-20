@@ -29,9 +29,6 @@ class UpdateUrlRequest extends FormRequest {
      * @return array<string, mixed>
      */
     public function rules(): array {
-        // Copy rules from your controller's update method
-        // Note: We probably DON'T want to validate 'shortener_url' here
-        // as it's generated, not user input for update.
         return [
             'title' => 'required|string|max:255',
             'original_url' => 'required|string|max:255|url', // Added 'url' rule
